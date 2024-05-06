@@ -35,7 +35,9 @@ Click on create topic
 ![alt text](<Screenshot 2024-05-04 224322.png>)
 
 Select the type as : standard
+
 Enter the name of the notification : email-notification
+
 Click on create
 
 ![alt text](<Screenshot 2024-05-04 224353.png>)
@@ -49,8 +51,11 @@ Click on create subscription
 ![alt text](<Screenshot 2024-05-04 224505.png>)
 
 Select the arn of the topic
+
 Select the protocol has : email
+
 Enter the endpoint : sathishgurka@024
+
 click on create
 
 ![alt text](<Screenshot 2024-05-04 224614.png>)
@@ -74,8 +79,11 @@ Click on the create function button
 ![alt text](<Screenshot 2024-05-04 215128.png>)
 
 Select the Author from Scratch option
+
 Enter the name of the function : Lambda-project
+
 Select the Runtime : Python 3.12
+
 Architecture as : x86_64
 
 ![alt text](<Screenshot 2024-05-04 215332.png>)
@@ -95,7 +103,9 @@ Click on add trigger
 ![alt text](<Screenshot 2024-05-04 215550.png>)
 
 Select the trigger as : S3
+
 Select the bucket     : s3-data-storage20
+
 Select the event types as : all object create events
 
 ![alt text](<Screenshot 2024-05-04 223242.png>)
@@ -110,8 +120,11 @@ The s3 trigger is added to the lambda function
 
 # Adding the SNS-trigger
 Click on add trigger
+
 Select the trigger as : SNS
+
 Select the sns topic that has created earlier
+
 Than click on add
 
 ![alt text](<Screenshot 2024-05-04 224931.png>)
@@ -179,10 +192,11 @@ The lambda function has ran successfully
 
 # NOTIFICATION
 I got notification to the email when the file is uploaded to the s3-bucket
+
 Hence the lambda is successfully triggered for event and automated the process
 
 ![alt text](<Screenshot 2024-05-04 231616.png>)
 
-# The Project IS Completed 
+# The Project Is Completed
  
 
